@@ -2,6 +2,8 @@ import time
 import os
 import random
 
+# THIS FILE IS WRITTEN BY ME - NOT MY BEST WORK BUT NOT BAD FOR 2 HOURS
+
 
 def clear():
     if os.name == 'nt':  # windows

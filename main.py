@@ -2,6 +2,8 @@ import os
 import random
 from time import sleep
 
+# THIS CODE WAS NOT WRITTEN BY ME, IT IS BAD, THAT IS WHY I REFACTORED IT
+
 tokens = 1000
 
 
