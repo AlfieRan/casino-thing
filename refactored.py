@@ -443,20 +443,18 @@ class Casino:
             colour = "green"
 
         print(f"The spin was {spin} which is {colour}.")
-        won = False
+        won = True
 
         if player == 1 and spin in red:
             reason = "red"
-            won = True
         elif player == 2 and spin in black:
             reason = "black"
-            won = True
-        elif player == 4 and not is_even(spin):
+        elif player == 4 and is_even(spin):
             reason = "even"
-            won = True
-        elif player == 5 and is_even(spin):
+        elif player == 5 and not is_even(spin):
             reason = "odd"
-            won = True
+        else:
+            won = False
 
         if won:
             self.tokens += bet * 2
