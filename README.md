@@ -1,4 +1,4 @@
 # casino-thing
-I made for a friend because I hated how badly he made it
+This was an object oriented rewrite of what my friend wrote for a college project that I made in two hours. 
 
 My code is in refactored.py, I did not write main.py
